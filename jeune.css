@@ -1,0 +1,136 @@
+/*les blocs sont placés en suivant une alternace droite gauche pour créer un effet de damier */
+/*tous les blocs ont des contours de la couleurs de leurs corps */
+
+#identité{/* les blocs de droite sont noirs et ont les coins arrondits*/
+border-width: 3px;
+border-style: solid ;  
+border-color: black;
+margin-right: 1500px;
+padding: 20px;
+position: relative;
+left: 1400px;
+background-color: black;
+color: azure;
+border-radius: 15px;
+
+}
+
+#objectif{/* les blocs de gauche sont blancs et ont les coins arrondits*/
+    border-width: 3px;
+    border-style: solid ;  
+    border-color: white;
+    margin-right: 1500px;
+    padding: 20px;
+    position: relative;
+    left: 140px;
+    background-color: azure;
+    border-radius: 15px;
+    
+} 
+
+#formation{/* les blocs de droite sont noirs et ont les coins arrondits*/
+        border-width: 3px;
+        border-style: solid ;  
+        border-color: black;
+        margin-right: 1500px;
+        padding: 20px;
+        position: relative;
+        left: 1400px;
+        background-color: black;
+        color: azure;
+        border-radius: 15px;
+
+}
+
+
+#Compétence{/* les blocs de gauche sont blancs et ont les coins arrondits*/
+    border-width: 3px;
+    border-style: solid ;  
+    border-color: white;
+    margin-right: 1500px;
+    padding: 20px;
+    position: relative;
+    left: 140px;
+    background-color: azure;
+    border-radius: 15px;
+
+} 
+
+#Langues{/* les blocs de droite sont noirs et ont les coins arrondits*/
+    border-width: 3px;
+    border-style: solid ;  
+    border-color: black;
+    margin-right: 1500px;
+    padding: 20px;
+    position: relative;
+    left: 1400px;
+    background-color: black;
+    color: azure;
+    border-radius: 15px;
+
+} 
+
+#Portefolio{/* les blocs de gauche sont blancs et ont les coins arrondits*/
+    border-width: 3px;
+    border-style: solid ;  
+    border-color: white;
+    margin-right: 1500px;
+    padding: 20px;
+    position: relative;
+    left: 140px;
+    background-color: azure;
+    border-radius: 15px;
+
+} 
+
+#Experience{/* les blocs de droite sont noirs et ont les coins arrondits*/
+    border-width: 3px;
+    border-style: solid ;  
+    border-color: black;
+    margin-right: 1500px;
+    padding: 20px;
+    position: relative;
+    left: 1400px;
+    background-color: black;
+    color: azure;
+    border-radius: 15px;
+
+} 
+
+#Interet{/* les blocs de gauche sont blancs et ont les coins arrondits*/
+    border-width: 3px;
+    border-style: solid ;  
+    border-color: white;
+    margin-right: 1500px;
+    padding: 20px;
+    position: relative;
+    left: 140px;
+    background-color: azure;
+    border-radius: 15px;
+
+} 
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+body{/*On a un dégradée de gris à blanc pour crée du contraste avec les blocs*/
+    background-image: -moz-linear-gradient(to right,grey,beige,white);
+    background-image: -webkit-linear-gradient(to right,grey,beige,white);
+    background-image: -ms-linear-gradient(to right,grey,beige,white);
+
+}
+
+#image-container {
+    display: flex; 
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100px; /* Ajuste la hauteur à celle de la fenêtre */
+
+}
+
+img {
+    max-width: 40%; /* Limite la largeur de l'image */
+    height: auto; /* Conserve les proportions */
+}
