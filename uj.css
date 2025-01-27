@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.container > div {
+    flex: 1; /* Chaque bloc occupe une part égale de l'espace disponible */
+    padding: 20px;
+    text-align: center;
+}
+
+#barre_menu {
+    background-color: green;
+    border-radius: 15px;
+}
+
+#text_corp {
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 15px;
+}
+
+#image-container {
+    background-color: rgb(19, 0, 128);
+    border-radius: 15px;
+}
+
+#image-container img {
+    max-width: 80%; /* Ajuste la taille de l'image pour éviter qu'elle dépasse */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
